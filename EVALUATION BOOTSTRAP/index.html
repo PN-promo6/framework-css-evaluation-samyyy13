@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Evaluation bootstrap</title>
+</head>
+
+<body>
+  <!-- NAVAR  -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+    <div class="container">
+
+      <a class="navbar-brand  text-right text-white" href="#">Le blog de l'architecte</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link  text-white" href="#">ACCEUIL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CONTACT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link  text-white active" href="#">BLOG<span class="sr-only">(current)</span></a>
+          </li>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher sur le blog" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- FIN NAVBAR -->
+
+  <!-- CAROUSEL -->
+  <section>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="http://placeimg.com/1200/300/arch" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="http://placeimg.com/1201/300/arch" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+  <!-- FIN CAROUSEL -->
+  <!-- ASIDE -->
+
+    <div class="container">
+
+        <div class="row">
+          <div class="col-lg-3 col-md-2 text-center bd-highlight">
+
+            <img src="https://i.pravatar.cc/100/100" alt="..." class="rounded-circle ">
+            <h5 class="card-title">John doe</h5>
+            <p class="card-text">Diplomé de l'école d'architecture de Caen</p>
+            <button type="button" class="btn btn-primary block">Voir tout les articles</button>
+
+            <div class="card align-center" style="width: 15rem;">
+
+              <ul class="list-group list-group-flush m-auto">
+                <li class="list-group-item">Sous-catégorie 1 <span class="badge badge-secondary">23</li>
+                <li class="list-group-item">Sous-catégorie 2 <span class="badge badge-secondary">11</li>
+                <li class="list-group-item">Sous-catégorie 3 <span class="badge badge-secondary">4</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-10">
+            <h1>ARTICLES - CATEGORIE 1</h1>
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb ">
+              <ol class="breadcrumb bg-white">
+                <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
+                <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Catégorie 1</li>
+              </ol>
+            </nav>
+            <!-- FIN BREADCRUMB -->
+            <!-- 1ST row -->
+
+              <div class="card-deck">
+                <!-- ARTICLE 1 -->
+                <div class="row">
+
+                <article class="col-lg-4 col-md-6 col-sm-4 bd-highlight">
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+                <!-- ARTICLE 2 -->
+                <article class="col-lg-4 col-md-6  col-sm-4">
+
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+                <!-- ARTICLE 3 -->
+                <article class="col-lg-4 col-md-6 col-sm-4">
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+
+
+
+              <!-- 2st row -->
+              <div class="card-deck my-3">
+                <!-- ARTICLE 1 -->
+                <article class="col-lg-4 col-md-6 col-sm-4">
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+                <!-- ARTICLE 2 -->
+                <article class="col-lg-4 col-md-6 col-sm-4">
+
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+                <!-- ARTICLE 3 -->
+                <article class="col-lg-4 col-md-6 col-sm-4">
+                  <div class="card shadow-sm bg-white rounded" style="width: 18rem;">
+                    <img src="http://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title m-0">Titre de l'article </h5>
+                      <span class="badge badge-secondary ">Sous-catégorie</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor(...)</p>
+                      <a href="#" class="card-link">Lire la suite</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+              <!-- FIN 2ST row -->
+
+          <!-- FAQ -->
+          <main>
+            <h2>FAQ</h2>
+
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit?</button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                      pariatur.
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </main>
+        </div>
+
+          <!-- FIN FAQ -->
+        </div>
+
+
+
+  <!-- debut footer -->
+  <footer class="bg-dark text-white py-2">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="text-righ m-0">© 2020 - Le blog de l'architecte</p>
+        </div>
+        <div class="col">
+
+          <ul class="list-inline  m-0 text-right">
+            <li class="list-inline-item"> <a class="text-white" href="#">Mention légale</a> </li>
+            <li class="list-inline-item"> <a class="text-white" href="#">Confidentialité</a> </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
